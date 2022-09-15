@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>Gestionnaire des dépenses</div>
+        <br>
+        <label>Intitulé de la dépense</label>
+        <input id="intitule" class="form-control" type="text">
+        <label>Somme de la dépense</label>
+        <input id="somme" class="form-control" type="number">
+        <br><br>
+        <div style="text-align: right">
+            <button id="btnAjouter" class="btn btn-success">Ajouter</button>
+            <button id="btnEffacer" class="btn btn-danger">Effacer</button>
+        </div>
+
+        <br>
+        <ol class="list-group" id="listDep">
+
+        </ol>
+        <strong>Total des dépenses : <span id="total">........</span> </strong>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
